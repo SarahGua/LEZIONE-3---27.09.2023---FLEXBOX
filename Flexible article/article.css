@@ -1,0 +1,47 @@
+#article {
+    margin: 1em;
+    background-color: #fbf7e3;
+    border-radius: 3em;
+    padding: 2em;
+    display: flex;
+    width: 72%;
+    height: 100%;
+}
+
+/* #img-honey-article {
+    background-image: url(../assets/imgs/honey.jpg);
+    height: 20em;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+#delicious {
+    color: brown;
+    width: 133em;
+    padding-left: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+h2 + p {
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 900px) {
+    #delicious {
+        color: brown;
+        width: 100%;
+        margin-bottom: 1em;
+        padding-left: 0;
+    }
+
+    #article {
+        flex-direction: column-reverse;
+    }
+
+
+}

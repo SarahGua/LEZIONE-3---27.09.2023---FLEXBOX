@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-wrap: wrap
+}
+
+#img-honey{
+    background-image: url(../assets/imgs/honey.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 38vh;
+    border-top-left-radius: 6em;
+    border-top-right-radius: 6em;
+}
+
+#container-product{
+    background-color: #fbf7e3;
+    margin: 1em;
+    width: 20%;
+    color: brown;
+    font-size: 1.5em;
+    border-radius: 6em;
+}
+
+section#img-honey + section {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+button {
+    font-size: 1em;
+    background-color: #f3df85;
+    color: brown;
+    border-radius: 5em;
+    width: 8em;
+    height: 5vh;
+    border: none;
+}
